@@ -1,0 +1,49 @@
+.app{
+    display: flex;
+    flex-direction: row;
+    padding:  50px 150px;
+    gap: 10%;
+} 
+.app-text{
+    width: 50%;
+    order: 1;
+}
+.foto-app{
+    width: 50%;
+}
+.foto-app img{
+    width: 500px;
+    order: 0;
+}
+.app-text h1{
+    font-size: 40px;
+    color: #29417c;
+    font-weight: bolder;
+}
+.app-text p{
+    width: 97%;
+}
+.app button{
+    float: left;
+}
+
+@media (max-width: 768px) {
+    .app {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .app-text,
+    .foto-app {
+        width: 100%;
+        text-align: center;
+    }
+
+    .foto-app img {
+        width: 100%;
+    }
+
+    .app button {
+        float: none;
+    }
+}

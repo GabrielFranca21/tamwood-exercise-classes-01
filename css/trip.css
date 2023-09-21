@@ -1,0 +1,37 @@
+.trip{
+    display: flex;    
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    background-color: #29417c;
+    width: 100%;  
+}
+.trip-tittle{
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px 0px;
+}
+.trip-text{
+    display: flex;
+    justify-content: center;
+}
+.trip-text p{
+    font-size: 21px;
+    width: 50%;
+}
+.foto-trip{
+    width: 100%;
+    padding-bottom: 15px;
+}
+@media (max-width: 768px) {
+    .trip-title {
+        font-size: 24px; /* Reduz o tamanho do título para dispositivos menores */
+    }
+
+    .trip-text p {
+        font-size: 18px; /* Reduz o tamanho do texto para dispositivos menores */
+    }
+    .foto-trip img{
+        width: 100%;
+    }
+}

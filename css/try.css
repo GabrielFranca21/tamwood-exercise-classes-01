@@ -1,0 +1,41 @@
+.try{
+    display: flex;
+    flex-direction: column;
+    padding:  50px 150px;
+    text-align: center;
+    background-color:#dfecf4 ;
+} 
+.try-text{
+    width: 100%;
+}
+.foto-try{
+    width: 100%;
+}
+.foto-try img{
+    width: 390px;
+}
+.try-text h1{
+    font-size: 40px;
+    color: #29417c;
+    font-weight: bolder;
+}
+.try-text p{
+    width: 100%;
+    padding: 0px 150px;
+}
+.try button{
+    margin-bottom: 50px;
+}
+@media (max-width: 768px) {
+    .try {
+        padding: 30px; /* Reduz o preenchimento para dispositivos menores */
+    }
+
+    .try-text p {
+        padding: 0 20px; /* Espaçamento nas laterais em telas menores */
+    }
+
+    .foto-try img {
+        width: 100%; /* Ajusta a largura da imagem para ocupar a largura do contêiner */
+    }
+}

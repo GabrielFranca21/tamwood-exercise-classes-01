@@ -1,0 +1,44 @@
+.where{
+    display: flex;
+    flex-direction: row;
+    padding:  50px 150px;
+    gap: 10%;
+} 
+.where-text{
+    width: 50%;
+}
+.foto-where{
+    width: 50%;
+}
+.foto-where img{
+    width: 500px;
+}
+.where-text h1{
+    font-size: 40px;
+    color: #29417c;
+    font-weight: bolder;
+}
+.where-text p{
+    width: 97%;
+}
+.where button{
+    float: left;
+}
+@media (max-width: 768px) {
+    .where {
+        flex-direction: column; /* Altera a direção da flexbox para empilhar verticalmente */
+        text-align: center;
+        padding: 30px; /* Reduz o preenchimento para dispositivos menores */
+    }
+
+    .where-text, .foto-where {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%; /* Ocupa toda a largura em telas menores */
+    }
+
+    .foto-where img {
+        width: 100%; /* Ajusta a largura da imagem para ocupar a largura do contêiner */
+    }
+}

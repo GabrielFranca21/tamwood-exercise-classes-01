@@ -1,0 +1,50 @@
+.book{
+    display: flex;
+    flex-direction: row;
+    padding:  50px 150px;
+    gap: 10%;
+} 
+.book-text{
+    width: 50%;
+}
+.foto-book{
+    width: 50%;
+}
+.foto-book img{
+    width: 500px;
+}
+.book-text h1{
+    font-size: 40px;
+    color: #29417c;
+    font-weight: bolder;
+}
+.book-text p{
+    width: 97%;
+}
+.book button{
+    float: left;
+}
+
+@media (max-width: 768px) {
+    .book {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .book-text,
+    .foto-book {
+        width: 100%;
+        text-align: center;
+    }
+
+    .foto-book img {
+        width: 100%;
+    }
+
+    .book button {
+        float: none;
+    }
+    .book-text{
+        order: 1;
+    }
+}   

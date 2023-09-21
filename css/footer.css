@@ -1,0 +1,87 @@
+footer{
+    display: flex;    
+    color: white;
+    padding: 0;
+    width: 100%;
+    display: 5px;
+}
+.fotoss{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 50%;
+    padding: 0;
+}
+.logo{
+    width: 250px;
+}
+.lists{
+    width: 70%;
+    text-transform: capitalize;
+    
+}
+.lists ul {
+    display: flex;
+    flex-direction: column;
+    
+}
+.lists ul li a{
+    font-weight: normal;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    
+}
+.lists li{
+    text-align: left;
+}
+
+ul li.titulo a{
+    font-weight: bold;
+    font-size: 21px;
+}
+.social{
+    color: black;
+    display: block;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+
+    width: 100% ;
+}
+
+.icon{
+    color: aqua;
+    padding-bottom: 5px;
+    fill: #48cafd;
+    display: flex;
+    justify-content: center;
+}
+.text-footer{
+    text-align: center;
+}
+.icon svg{
+    padding: 5px;
+}
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .fotoss, .social {
+        width: 100%;
+    }
+
+    .logo {
+        width: 150px;
+    }
+    .carro img{
+        width: 100%;
+    }
+    .lists{
+        text-align: left;
+        float: left;
+        width: 65%;
+    }
+}

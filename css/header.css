@@ -1,0 +1,86 @@
+#cabecalho{
+    width: 100%;
+    height: 100px;
+    background-color: #dfecf4;
+    overflow: hidden;
+}
+
+.logo{
+    float: left;
+    max-width: 100%;
+    width: 250px;
+    margin-top: -30px;
+}
+
+.other a ,.about-header a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    transition: 0.9s ;
+}
+ul{
+    list-style: none;
+    font-size: 21px;
+    padding: 20px 10px;
+    float: right;
+}
+li{
+    padding: 15px 30px;
+    text-align: center;
+    display: inline-block;
+}
+.about-header{ 
+    background-color:#48cafd;
+    float: right;
+    color: #013346;
+    border-radius: 9px;
+    text-transform: uppercase;
+}
+.other a:hover{
+    background-color:#1f0c2a6a;
+    padding: 10px;
+    border-radius: 5px;
+    transform: scale(1.9);
+    border-radius: 50px;
+    color: white;
+}
+.about-header a:hover{
+    background-color: inherit;
+    padding: 10px;
+    border-radius: 5px;
+    transform: scale(1.9);
+}
+
+@media (max-width: 768px) {
+    #cabecalho {
+        height: auto; /* Ajusta a altura automaticamente para acomodar o conteúdo */
+    }
+
+    .logo {
+        float: none;
+        width: 100%;
+        text-align: center; /* Centraliza o logotipo */
+        justify-content: center;
+    }
+    .logo img{
+        width: 190%;
+        margin: 60px;
+        margin-top: 0;
+        margin-bottom: -40px;
+        text-align: center;
+    }
+    ul {
+        float: none;
+        text-align: center; /* Centraliza a lista de links */
+    }
+
+    li {
+        display: block;
+        margin-bottom: 10px; /* Adapta o espaçamento entre os links */
+    }
+
+    .about-header {
+        float: none;
+        margin: 0 auto; /* Centraliza o elemento */
+    }
+}
